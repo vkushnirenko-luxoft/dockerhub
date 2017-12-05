@@ -1,0 +1,6 @@
+export DOCKER_ID_USER="vkushnirenkoluxoft"
+
+docker login        #vkushnirenkoluxoft
+docker image ls
+sudo docker tag b16bd4b3eef7 luxoftsdl/jenkinsci:2.61
+sudo docker push luxoftsdl/jenkinsci
